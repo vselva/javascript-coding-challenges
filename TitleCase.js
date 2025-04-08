@@ -64,4 +64,12 @@ console.log(toTitleCase('this is sample TEXT'));  // Output: This Is Sample Text
  *
  * 3. ASCII Difference Between Uppercase & Lowercase:
  *    - 'A' to 'a' is a difference of 32 → useful for manual conversion
+ * 
+ * 4. ASCII Values to remember:
+ *    - 'A' => 65
+ *    - 'Z' => 90
+ *    - 'a' => 97
+ *    - 'z' => 122
+ *    - Lower to Upper => -32
+ *    - Upper to Lower => +32
  */
