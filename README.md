@@ -32,7 +32,7 @@ Find the sum of all numbers in an array.                            => SumOfItem
 
 Find the sum of all even numbers in an array.                       => SumOfEvenNumbersInArray.js
 
-Write a program to merge two arrays.
+Write a program to merge two arrays.                                => MergeTwoArrays.js
 
 Remove duplicate elements from an array.
 
