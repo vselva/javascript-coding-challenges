@@ -28,7 +28,7 @@ Sort an array in descending order without using built-in sort.      => OrderArra
 
 Write a program to find the factorial of a number.                  => factorial.js
 
-Find the sum of all numbers in an array.
+Find the sum of all numbers in an array.                            => SumOfItemsInArray.js
 
 Find the sum of all even numbers in an array.
 
