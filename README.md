@@ -30,7 +30,7 @@ Write a program to find the factorial of a number.                  => factorial
 
 Find the sum of all numbers in an array.                            => SumOfItemsInArray.js
 
-Find the sum of all even numbers in an array.
+Find the sum of all even numbers in an array.                       => SumOfEvenNumbersInArray.js
 
 Write a program to merge two arrays.
 
