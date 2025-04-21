@@ -34,7 +34,7 @@ Find the sum of all even numbers in an array.                       => SumOfEven
 
 Write a program to merge two arrays.                                => MergeTwoArrays.js
 
-Remove duplicate elements from an array.
+Remove duplicate elements from an array.                            => RemoveDuplicatesFromArray.js
 
 Find the frequency of each element in an array.
 
