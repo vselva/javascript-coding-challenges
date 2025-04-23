@@ -36,7 +36,7 @@ Write a program to merge two arrays.                                => MergeTwoA
 
 Remove duplicate elements from an array.                            => RemoveDuplicatesFromArray.js
 
-Find the frequency of each element in an array.
+Find the frequency of each element in an array.                     => FrequencyOfElementInArray.js
 
 Find the second largest number in an array.
 
