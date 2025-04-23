@@ -38,7 +38,7 @@ Remove duplicate elements from an array.                            => RemoveDup
 
 Find the frequency of each element in an array.                     => FrequencyOfElementInArray.js
 
-Find the second largest number in an array.
+Find the second largest number in an array.                         => SecondLargestInArray.js
 
 Find the second smallest number in an array.
 
