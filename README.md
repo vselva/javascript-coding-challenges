@@ -52,9 +52,7 @@ Check if a given year is a leap year.                               => IsLeapYea
 
 Write a program to check if a number is an Armstrong number.        => IsArmstrongNumber.js
 
-Merge Two Array without inbuild functions                           => MergeTwoArrays.js
-
-Find the intersection of two arrays.
+Find the intersection of two arrays.                                => IntersectionOfTwoArrays.js
 
 Find the union of two arrays.
 
