@@ -54,7 +54,7 @@ Write a program to check if a number is an Armstrong number.        => IsArmstro
 
 Find the intersection of two arrays.                                => IntersectionOfTwoArrays.js
 
-Find the union of two arrays.
+Find the union of two arrays.                                       => UnionTwoArrays.js
 
 Write a program to capitalize the first letter of each word in a string.
 
