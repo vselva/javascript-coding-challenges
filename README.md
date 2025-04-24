@@ -40,7 +40,7 @@ Find the frequency of each element in an array.                     => Frequency
 
 Find the second largest number in an array.                         => SecondLargestInArray.js
 
-Find the second smallest number in an array.
+Find the second smallest number in an array.                        => SecondSmallestInArray.js
 
 Swap two numbers without using a third variable.
 
