@@ -44,13 +44,13 @@ Find the second smallest number in an array.                        => SecondSma
 
 Swap two numbers without using a third variable.                    => SwapTwoNumberWoThirdVariable.Js
 
-Check if a number is prime.                                         => isPrime.js
+Check if a number is prime.                                         => IsPrime.js
 
 Generate the Fibonacci sequence up to n numbers.                    => Fibonacci.js
 
-Check if a given year is a leap year.                               => isLeapYear.js
+Check if a given year is a leap year.                               => IsLeapYear.js
 
-Write a program to check if a number is an Armstrong number.
+Write a program to check if a number is an Armstrong number.        => IsArmstrongNumber.js
 
 Find the intersection of two arrays.
 
