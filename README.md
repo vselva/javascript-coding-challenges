@@ -48,7 +48,7 @@ Check if a number is prime.                                         => isPrime.j
 
 Generate the Fibonacci sequence up to n numbers.                    => Fibonacci.js
 
-Check if a given year is a leap year.
+Check if a given year is a leap year.                               => isLeapYear.js
 
 Write a program to check if a number is an Armstrong number.
 
