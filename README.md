@@ -42,7 +42,7 @@ Find the second largest number in an array.                         => SecondLar
 
 Find the second smallest number in an array.                        => SecondSmallestInArray.js
 
-Swap two numbers without using a third variable.
+Swap two numbers without using a third variable.                    => SwapTwoNumberWoThirdVariable.Js
 
 Check if a number is prime.
 
