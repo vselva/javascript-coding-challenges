@@ -44,7 +44,7 @@ Find the second smallest number in an array.                        => SecondSma
 
 Swap two numbers without using a third variable.                    => SwapTwoNumberWoThirdVariable.Js
 
-Check if a number is prime.
+Check if a number is prime.                                         => isPrime.js
 
 Generate the Fibonacci sequence up to n numbers.
 
