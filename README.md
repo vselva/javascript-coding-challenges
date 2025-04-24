@@ -46,7 +46,7 @@ Swap two numbers without using a third variable.                    => SwapTwoNu
 
 Check if a number is prime.                                         => isPrime.js
 
-Generate the Fibonacci sequence up to n numbers.
+Generate the Fibonacci sequence up to n numbers.                    => Fibonacci.js
 
 Check if a given year is a leap year.
 
