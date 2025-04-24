@@ -8,14 +8,15 @@ function mergeTwoArrays(inArr1, inArr2) {
     let arrLength1 = 0;
 
     // Find the length of inArr1 by iterating until undefined is encountered
-    while (inArr1[arrLength1] !== undefined) {
+    let i = 0;
+    while (i in inArr1) {
         arrLength1++;
+        i++;
     }
 
-    let i = 0;
-
+    i = 0;
     // Append elements of inArr2 to the end of inArr1
-    while (inArr2[i] !== undefined) {
+    while (i in inArr2) {
         inArr1[arrLength1 + i] = inArr2[i];
         i++;
     }
