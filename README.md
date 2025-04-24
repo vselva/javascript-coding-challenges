@@ -56,9 +56,9 @@ Find the intersection of two arrays.                                => Intersect
 
 Find the union of two arrays.                                       => UnionTwoArrays.js
 
-Write a program to capitalize the first letter of each word in a string.
+Write a program to capitalize the first letter of each word in a string. => TitleCase.js
 
-Count the occurrence of a character in a string.
+Count the occurrence of a character in a string.                    => CountCharInString.js
 
 Reverse a number.
 
