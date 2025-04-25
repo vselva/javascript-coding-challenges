@@ -64,7 +64,7 @@ Reverse a number.                                                   => ReverseNu
 
 Find the sum of digits in a number.                                 => SumOfDigitsInNumber.js
 
-Find missing number in an array of 1 to n numbers.                  => 
+Find missing number in an array of 1 to n numbers.                  => FindMissingNumberInArray.js
 
 Write a program to check if two strings are anagrams.               => StringsAnagramOrNot.js
 
