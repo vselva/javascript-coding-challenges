@@ -60,7 +60,7 @@ Write a program to capitalize the first letter of each word in a string. => Titl
 
 Count the occurrence of a character in a string.                    => CountCharInString.js
 
-Reverse a number.
+Reverse a number.                                                   => ReverseNumber.js
 
 Find the sum of digits in a number.
 
