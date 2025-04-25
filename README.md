@@ -68,7 +68,7 @@ Find missing number in an array of 1 to n numbers.                  => FindMissi
 
 Write a program to check if two strings are anagrams.               => StringsAnagramOrNot.js
 
-Find the largest and smallest number in an array in a single pass.
+Find the largest and smallest number in an array in a single pass.  => LargestSmallestNumberInArray.js
 
 📌 Medium Level (Objects, Recursion, Closures):
 ===============================================
