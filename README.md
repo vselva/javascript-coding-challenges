@@ -62,11 +62,11 @@ Count the occurrence of a character in a string.                    => CountChar
 
 Reverse a number.                                                   => ReverseNumber.js
 
-Find the sum of digits in a number.
+Find the sum of digits in a number.                                 => SumOfDigitsInNumber.js
 
 Find missing number in an array of 1 to n numbers.
 
-Write a program to check if two strings are anagrams.                       => StringsAnagramOrNot.js
+Write a program to check if two strings are anagrams.               => StringsAnagramOrNot.js
 
 Find the largest and smallest number in an array in a single pass.
 
