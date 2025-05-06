@@ -75,7 +75,7 @@ Implement a countdown using setTimeout()                            => CountDown
 📌 Medium Level (Objects, Recursion, Closures):
 ===============================================
 
-Write a recursive function to calculate factorial.
+Write a recursive function to calculate factorial.                  => Factorila.js
 
 Write a recursive function to calculate the sum of an array.
 
