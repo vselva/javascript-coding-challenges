@@ -70,7 +70,7 @@ Write a program to check if two strings are anagrams.               => StringsAn
 
 Find the largest and smallest number in an array in a single pass.  => LargestSmallestNumberInArray.js
 
-Implement a countdown using setTimeout()                            =>  
+Implement a countdown using setTimeout()                            => CountDownTimer.js
 
 📌 Medium Level (Objects, Recursion, Closures):
 ===============================================
