@@ -77,9 +77,9 @@ Implement a countdown using setTimeout()                            => CountDown
 
 Write a recursive function to calculate factorial.                  => Factorila.js
 
-Write a recursive function to calculate the sum of an array.
+Write a recursive function to calculate the sum of an array.        => RecursiveSum.js
 
-Flatten a nested array without using flat().
+Flatten a nested array without using flat().                        => CustomFlat.js
 
 Clone a JavaScript object deeply.
 
