@@ -1,13 +1,17 @@
 // Function to reverse a string manually (without using built-in functions)
 function reverseString(str) {
-    let reversedString = ''; // Initialize an empty string to build the reversed string
+    let reversedString = '';
 
-    // Loop from the end of the original string to the beginning
-    for (let i = str.length - 1; i >= 0; i--) {
-        reversedString += str[i]; // Append each character in reverse order
+    // for (let i = str.length - 1; i >= 0; i--) {
+    //     reversedString += str[i];
+    // }
+
+    // alternate method using for...of loop
+    for (c of str) {
+        reversedString = c + reversedString;
     }
 
-    return reversedString; // Return the reversed string
+    return reversedString;
 }
 
 // Function to reverse a string using built-in JavaScript methods
@@ -19,7 +23,7 @@ function reverseStringWithBuildIn(str) {
 }
 
 // Test string
-let originalString = 'This string will get reversed';
+let originalString = '123456789';
 
 // Output using manual method
 console.log('🔁 Reverse String without Built-In Functions');
