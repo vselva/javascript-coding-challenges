@@ -17,6 +17,7 @@ const isPalindrom = (string) => {
 
   // checking the reversed is same or not
   const reversed = string.split("").reverse().join("");
+
   if (string === reversed) {
     return true;
   }
