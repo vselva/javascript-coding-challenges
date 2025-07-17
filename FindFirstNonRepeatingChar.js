@@ -15,6 +15,6 @@ function findFirstNonRepeatingChar(inStr) {
     return null;
 }
 
-let inStr = 'sseelllvakumar';
-console.log('First Non Repeating Char in String: ');
-console.log(findFirstNonRepeatingChar(inStr)); // Output 
+let inStr = "sseelllvakumar";
+console.log("First Non Repeating Char in String: ");
+console.log(findFirstNonRepeatingChar(inStr)); // Output
