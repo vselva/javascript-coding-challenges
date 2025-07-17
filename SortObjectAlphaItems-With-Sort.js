@@ -1,6 +1,9 @@
 // sort by object items
 const sortObjectItem = (obj) => {
     const sorted = obj.sort((el1, el2) => el1.name.localeCompare(el2.name));
+    /* const sorted = obj.sort((el1, el2) => {
+        return el1.name > el2.name ? 1 : el1.name == el2.name ? 0 : -1;
+    }); */
     return sorted;
 };
 
