@@ -1,39 +1,23 @@
-// Helper function to count characters in a string
-function createCounterObject(inStr) {
-    let counterObject = {};
-
-    for (i = 0; i < inStr.length; i++) {
-        if(counterObject[inStr[i]]) {
-            counterObject[inStr[i]]++
-        } else {
-            counterObject[inStr[i]] = 1;
-        }
+function getCharMap(string) {
+    let strMap = {};
+    for (let i = 0; i < string.length; i++) {
+        let char = string[i];
+        strMap[char] = strMap[char] ? ++strMap[char] : 1;
     }
-    return counterObject;
+    return strMap;
 }
 
-// Main function to check if two strings are anagrams
-function isAnagram(inStr1, inStr2) {
-    if (inStr1.length !== inStr2.length) return false;
+function isAnagram(str1, str2) {
+    let str1charMap = getCharMap(str1);
+    let str2charMap = getCharMap(str2);
 
-    let counterObject1 = createCounterObject(inStr1);
-    let counterObject2 = createCounterObject(inStr2);
-    // Compare character counts
-    for (key in counterObject1) {
-        if(counterObject1[key] != counterObject2[key]) {
+    for (key in str1charMap) {
+        if (str1charMap[key] !== str2charMap[key]) {
             return false;
         }
     }
     return true;
 }
 
-// Test cases
-const inStr1 = 'race';
-const inStr2 = 'care';
-let isAnagram1 = isAnagram(inStr1, inStr2);
-console.log(`${inStr1} and ${inStr2} are${!isAnagram1 ? ' not ': ' '}anagram!`);
-
-const inStr3 = 'race';
-const inStr4 = 'cars';
-let isAnagram2 = isAnagram(inStr3, inStr4);
-console.log(`${inStr3} and ${inStr4} are${!isAnagram2 ? ' not ' : ' '}anagram!`);
+console.log(isAnagram("selvaa", "aavles"));
+console.log(isAnagram("selvaa", "aavls"));
