@@ -1,14 +1,12 @@
 const twoSum = (array, target) => {
-  let sum2 = [];
-  
-  for (let i = 0; i < array.length; i++) {
-    let diff = target - array[i];
-    for (let j = i; j < array.length; j++) {
-      if(diff == array[j]) return [array[i], array[j]];
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 1; j < array.length; j++) {
+            if (array[i] + array[j] == target) {
+                return [array[i], array[j]];
+            }
+        }
     }
-  }
-  
-  return sum2;
-}
+    return [];
+};
 
-console.log(twoSum([5, 4, 3, 2, 1], 3));
+console.log(twoSum([1, 2, 3, 4, 5], 8));
