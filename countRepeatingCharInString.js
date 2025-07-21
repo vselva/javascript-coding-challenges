@@ -1,5 +1,5 @@
-const countRepeatingCharsInString = string => {
-    let repeatingChars = '';
+const countRepeatingCharsInString = (string) => {
+    let repeatingChars = "";
     let count = 1;
     let char = string[0];
 
@@ -17,4 +17,4 @@ const countRepeatingCharsInString = string => {
     return repeatingChars;
 };
 
-console.log(countRepeatingCharsInString('abbcccddddeeeee'));
+console.log(countRepeatingCharsInString("abbcccddddeeeeea"));
