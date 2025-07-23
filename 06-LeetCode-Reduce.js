@@ -14,9 +14,10 @@ If the length of the array is 0, the function should return init.
 Please solve it without using the built-in Array.reduce method.
 */
 
-function reducer(nums, init, fn) {
+function reducer(nums, fn, init) {
     const length = nums.length;
-    if (length <= 1) return init;
+    if (length == 0) return init;
+    //if (length == 1) return 0;
 
     let acc = init;
     for (let i = 0; i < length; i++) {
@@ -29,8 +30,29 @@ const arr = [1, 2, 3, 4, 5];
 const add = (acc, current) => acc + current;
 const mul = (acc, current) => acc * current;
 
-const a = reducer(arr, 0, add);
+const a = reducer(arr, add, 0);
 console.log(a);
 
-const m = reducer(arr, 1, mul);
+const m = reducer(arr, mul, 1);
 console.log(m);
+
+//
+function sum0(accum, curr) {
+    return 0;
+}
+
+let array = [0];
+let s = reducer(array, sum0, 25);
+console.log(s); //0
+
+array = [];
+s = reducer(array, sum0, 25);
+console.log(s); // exp 25
+
+//
+array = [13];
+function sum(accum, curr) {
+    return accum + curr;
+}
+s = reducer(array, sum, 25);
+console.log(s); // exp 38
