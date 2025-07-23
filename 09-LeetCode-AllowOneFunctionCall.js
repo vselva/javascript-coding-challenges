@@ -25,3 +25,4 @@ const res = once(sum);
 
 console.log(res(1, 2));
 console.log(res(1, 2));
+console.log(res(1, 2));
