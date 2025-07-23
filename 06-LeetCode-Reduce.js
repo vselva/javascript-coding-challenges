@@ -17,7 +17,6 @@ Please solve it without using the built-in Array.reduce method.
 function reducer(nums, fn, init) {
     const length = nums.length;
     if (length == 0) return init;
-    //if (length == 1) return 0;
 
     let acc = init;
     for (let i = 0; i < length; i++) {
