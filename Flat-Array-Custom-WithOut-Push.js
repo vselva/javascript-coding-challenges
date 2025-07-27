@@ -4,10 +4,10 @@ const flattenArray = (input) => {
     }
 
     let copy = [];
-
     for (key in input) {
-        value = input[key];
-        copy = copy.concat(flattenArray(value));
+        let value = input[key];
+        let flatten = flattenArray(value);
+        copy = copy.concat(flatten);
     }
 
     return copy;
