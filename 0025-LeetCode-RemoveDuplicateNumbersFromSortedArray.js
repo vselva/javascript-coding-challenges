@@ -29,5 +29,6 @@ var removeDuplicates = function (nums) {
     return k;
 };
 
-const nums = [1, 1, 2];
+const nums = [1, 1, 2, 2, 7, 8, 9, 9, 9];
 console.log(removeDuplicates(nums));
+console.log(nums);
