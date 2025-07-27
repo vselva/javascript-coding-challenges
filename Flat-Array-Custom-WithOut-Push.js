@@ -1,19 +1,19 @@
-const flattenArray = (array) => {
-  let flatten = [];
-  const length = array.length;
-  let j = 0;
-  for (let i = 0; i < length; i++) {
-    let item = array[i];
-    if (!Array.isArray(item)) {
-      flatten[j++] = item;
-    } else {
-      for (let k = 0; k < item.length; k++) {
-        flatten[j++] = item[k];
-      }
+const flattenArray = (input) => {
+    if (typeof input !== "object") {
+        return input;
     }
-  }
-  return flatten;
+
+    let copy = [];
+
+    for (key in input) {
+        value = input[key];
+        copy = copy.concat(flattenArray(value));
+    }
+
+    return copy;
 };
 
-let array = [1, 2, [3, 4], [5, 6]];
-console.log(flattenArray(array));
+const input = [1, 2, 3, 4, [5, 6, [7, 8]], 9, 10];
+const output = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+console.log(flattenArray(input));
