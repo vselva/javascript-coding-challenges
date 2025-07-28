@@ -1,16 +1,14 @@
-const rotateArray = (array, n) => {
+const rotate = (array, n) => {
     let rotated = [];
-    const length = array.length;
+    let length = array.length;
     for (let i = 0; i < n; i++) {
-        rotated = [];
-        rotated[0] = array[length - 1];
-        for (let j = 1; j < length; j++) {
-            rotated[j] = array[j - 1];
-            console.log(rotated);
+        let last = array[length - 1];
+        for (let k = length - 1; k >= 0; k--) {
+            array[k] = array[k - 1];
         }
-        array = rotated;
+        array[0] = last;
     }
-    return rotated;
+    return array;
 };
 
-console.log(rotateArray([1, 2, 3, 4, 5, 6], 3));
+console.log(rotate([1, 2, 3, 4], 2));
