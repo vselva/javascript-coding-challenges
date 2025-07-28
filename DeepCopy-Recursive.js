@@ -1,15 +1,16 @@
-const deepCopy = (input) => {
-    if (typeof input !== "object") {
+const clone = (input) => {
+    if (typeof input !== "object" || input === null) {
         return input;
     }
 
     let copy = Array.isArray(input) ? [] : {};
 
     for (key in input) {
-        const value = input[key];
-        copy[key] = deepCopy(value);
+        if (input.hasOwnProperty(key)) {
+            let value = input[key];
+            copy[key] = clone(value);
+        }
     }
-
     return copy;
 };
 
@@ -23,6 +24,5 @@ const original = {
     },
     hobbies: ["reading", "cycling"],
 };
-
-const copy = deepCopy(original);
-console.log(copy);
+let res = clone(original);
+console.log(res);
