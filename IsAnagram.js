@@ -1,23 +1,16 @@
-function getCharMap(string) {
-    let strMap = {};
-    for (let i = 0; i < string.length; i++) {
-        let char = string[i];
-        strMap[char] = strMap[char] ? ++strMap[char] : 1;
-    }
-    return strMap;
-}
+const isAnagram = (str1, str2) => {
+    const str1Map = {};
 
-function isAnagram(str1, str2) {
-    let str1charMap = getCharMap(str1);
-    let str2charMap = getCharMap(str2);
+    for (let ch of str1) str1Map[ch] = str1Map[ch] ? ++str1Map[ch] : 1;
 
-    for (key in str1charMap) {
-        if (str1charMap[key] !== str2charMap[key]) {
-            return false;
-        }
+    for (let ch of str2) {
+        if (!str1Map[ch]) return false;
+        str1Map[ch]--;
+        if (str1Map[ch] < 0) return false;
     }
     return true;
-}
+};
 
-console.log(isAnagram("selvaa", "aavles"));
-console.log(isAnagram("selvaa", "aavls"));
+console.log(isAnagram("madam", "mdmaa"));
+console.log(isAnagram("madam", "mdmaa1"));
+console.log(isAnagram("madam2", "mdmaa1"));
