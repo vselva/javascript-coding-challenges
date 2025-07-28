@@ -1,20 +1,13 @@
-function findFirstNonRepeatingChar(inStr) {
-    const repeatStr = {};
-
-    for (i = 0; i < inStr.length; i++) {
-        const char = inStr[i];
-        repeatStr[char] = (repeatStr[char] || 0) + 1;
+const findFirstNonRepeatingChar = (string) => {
+    let strMap = {};
+    for (ch of string) {
+        strMap[ch] = (strMap[ch] || 0) + 1;
     }
+    console.log(strMap);
 
-    for (let i = 0; i < inStr.length; i++) {
-        if (repeatStr[inStr[i]] === 1) {
-            return inStr[i];
-        }
+    for (key of string) {
+        if (strMap[key] == 1) return key;
     }
+};
 
-    return null;
-}
-
-let inStr = "sseelllvakumar";
-console.log("First Non Repeating Char in String: ");
-console.log(findFirstNonRepeatingChar(inStr)); // Output
+console.log(findFirstNonRepeatingChar("1122333444455556777888990"));
