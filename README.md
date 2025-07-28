@@ -1,87 +1,86 @@
 # javascript-coding-challenges
+
 JavaScript Coding Challenges
 
-Writting Code for the below Popular Javascript Challenges which are asked in interviews commonly. 
+Writting Code for the below Popular Javascript Challenges which are asked in interviews commonly.
 
-📌 Easy Level (Basics, Loops, Arrays, Strings):
-===============================================
+# 📌 Easy Level (Basics, Loops, Arrays, Strings):
 
-Write a program to reverse a string                                 => ReverseString.js
+Write a program to reverse a string => ReverseString.js
 
-Write a program to check if a string is a palindrome.               => CheckPalindrome.js
+Write a program to check if a string is a palindrome. => CheckPalindrome.js
 
-Remove duplicate characters from a string while preserving order.   => RemoveDuplicatesFromString.js
+Remove duplicate characters from a string while preserving order. => RemoveDuplicatesFromString.js
 
-Count the number of vowels in a string.                             => CountVowelsInString.js
+Count the number of vowels in a string. => CountVowelsInString.js
 
-Compress a String in the format <char><count>...                    => CompressString.js
+Compress a String in the format <char><count>... => CompressString.js
 
-Implement strstr function without build-in.                         => StrStr.js
+Implement strstr function without build-in. => StrStr.js
 
-Find the largest & smallest number in an array.                     => SmallLargeNumberInArray.js
+Find the largest & smallest number in an array. => SmallLargeNumberInArray.js
 
-Find Longest Prefix In Array                                        => LongestPrefixInArray.js
+Find Longest Prefix In Array => LongestPrefixInArray.js
 
-Sort an array in ascending order without using built-in sort.       => OrderArrayAsc.js
+Sort an array in ascending order without using built-in sort. => OrderArrayAsc.js
 
-Sort an array in descending order without using built-in sort.      => OrderArrayDesc.js
+Sort an array in descending order without using built-in sort. => OrderArrayDesc.js
 
-Write a program to find the factorial of a number.                  => factorial.js
+Write a program to find the factorial of a number. => factorial.js
 
-Find the sum of all numbers in an array.                            => SumOfItemsInArray.js
+Find the sum of all numbers in an array. => SumOfItemsInArray.js
 
-Find the sum of all even numbers in an array.                       => SumOfEvenNumbersInArray.js
+Find the sum of all even numbers in an array. => SumOfEvenNumbersInArray.js
 
-Write a program to merge two arrays.                                => MergeTwoArrays.js
+Write a program to merge two arrays. => MergeTwoArrays.js
 
-Remove duplicate elements from an array.                            => RemoveDuplicatesFromArray.js
+Remove duplicate elements from an array. => RemoveDuplicatesFromArray.js
 
-Find the frequency of each element in an array.                     => FrequencyOfElementInArray.js
+Find the frequency of each element in an array. => FrequencyOfElementInArray.js
 
-Find the second largest number in an array.                         => SecondLargestInArray.js
+Find the second largest number in an array. => SecondLargestInArray.js
 
-Find the second smallest number in an array.                        => SecondSmallestInArray.js
+Find the second smallest number in an array. => SecondSmallestInArray.js
 
-Swap two numbers without using a third variable.                    => SwapTwoNumberWoThirdVariable.Js
+Swap two numbers without using a third variable. => SwapTwoNumberWoThirdVariable.Js
 
-Check if a number is prime.                                         => IsPrime.js
+Check if a number is prime. => IsPrime.js
 
-Generate the Fibonacci sequence up to n numbers.                    => Fibonacci.js
+Generate the Fibonacci sequence up to n numbers. => Fibonacci.js
 
-Check if a given year is a leap year.                               => IsLeapYear.js
+Check if a given year is a leap year. => IsLeapYear.js
 
-Write a program to check if a number is an Armstrong number.        => IsArmstrongNumber.js
+Write a program to check if a number is an Armstrong number. => IsArmstrongNumber.js
 
-Find the intersection of two arrays.                                => IntersectionOfTwoArrays.js
+Find the intersection of two arrays. => IntersectionOfTwoArrays.js
 
-Find the union of two arrays.                                       => UnionTwoArrays.js
+Find the union of two arrays. => UnionTwoArrays.js
 
 Write a program to capitalize the first letter of each word in a string. => TitleCase.js
 
-Count the occurrence of a character in a string.                    => CountCharInString.js
+Count the occurrence of a character in a string. => CountCharInString.js
 
-Reverse a number.                                                   => ReverseNumber.js
+Reverse a number. => ReverseNumber.js
 
-Find the sum of digits in a number.                                 => SumOfDigitsInNumber.js
+Find the sum of digits in a number. => SumOfDigitsInNumber.js
 
-Find missing number in an array of 1 to n numbers.                  => FindMissingNumberInArray.js
+Find missing number in an array of 1 to n numbers. => FindMissingNumberInArray.js
 
-Write a program to check if two strings are anagrams.               => StringsAnagramOrNot.js
+Write a program to check if two strings are anagrams. => StringsAnagramOrNot.js
 
-Find the largest and smallest number in an array in a single pass.  => LargestSmallestNumberInArray.js
+Find the largest and smallest number in an array in a single pass. => LargestSmallestNumberInArray.js
 
-Implement a countdown using setTimeout()                            => CountDownTimer.js
+Implement a countdown using setTimeout() => CountDownTimer.js
 
-📌 Medium Level (Objects, Recursion, Closures):
-===============================================
+# 📌 Medium Level (Objects, Recursion, Closures):
 
-Write a recursive function to calculate factorial.                  => Factorila.js
+Write a recursive function to calculate factorial. => Factorila.js
 
-Write a recursive function to calculate the sum of an array.        => RecursiveSum.js
+Write a recursive function to calculate the sum of an array. => RecursiveSum.js
 
-Flatten a nested array without using flat().                        => CustomFlat.js
+Flatten a nested array without using flat(). => CustomFlat.js
 
-Clone a JavaScript object deeply.
+Clone a JavaScript object deeply. => DeepCopy-WIth-StructuredClone.js, DeepCopy-Recursive.js
 
 Find the duplicate values in an array.
 
@@ -107,7 +106,7 @@ Find the longest palindrome in a string.
 
 Count the number of words in a string.
 
-Write a function to convert a string to TitleCase.                      => TitleCase.js
+Write a function to convert a string to TitleCase. => TitleCase.js
 
 Write a function to convert a string to camelCase.
 
@@ -157,8 +156,7 @@ Write a program to convert Roman numerals to integers.
 
 Write a program to convert integers to Roman numerals.
 
-📌 Advanced Level (Asynchronous, Prototypes, Performance):
-===========================================================
+# 📌 Advanced Level (Asynchronous, Prototypes, Performance):
 
 Write a polyfill for Promise.all.
 
@@ -182,7 +180,7 @@ Write a program to detect a cycle in a linked list.
 
 Implement a publish/subscribe pattern.
 
-Write a program to find the first non-repeating character in a string.  => FindFirstNonRepeatingChar.js
+Write a program to find the first non-repeating character in a string. => FindFirstNonRepeatingChar.js
 
 Write a program to check if two arrays are equal.
 
