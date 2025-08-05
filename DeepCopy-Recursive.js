@@ -4,7 +4,8 @@ const deepClone = (input) => {
     }
     let copy = Array.isArray(input) ? [] : {};
     for (key in input) {
-        copy[key] = deepClone(input[key]);
+        let value = input[key];
+        copy[key] = deepClone(value);
     }
     return copy;
 };
